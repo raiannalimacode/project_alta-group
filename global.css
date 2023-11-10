@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Dosis:wght@200;300;400;500;600;700;800&family=Montserrat:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-01);
+    list-style: none;
+}
+
+.container {
+    /* width: 75rem; */
+    width: 90%;
+    margin: 0 auto;
+}
+
+:root {
+    --font-family-01: 'DM Serif Display', serif;
+    --font-family-02: 'Comfortaa', sans-serif;
+    --font-family-03: 'Dosis', sans-serif;
+    --font-family-04: 'Montserrat', sans-serif;
+
+    --font-weight-00: 200;
+    --font-weight-01: 300;
+    --font-weight-02: 400;
+    --font-weight-03: 500;
+    --font-weight-04: 600;
+    --font-weight-05: 700;
+    --font-weight-06: 800;
+    --font-weight-07: 900;
+
+    --color-white-01: #ffffff;
+    --color-black-01: #000000;
+    --color-blue-01: #066CF6;
+}
