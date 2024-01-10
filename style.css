@@ -98,12 +98,9 @@ video {
     margin-top: 3rem;
 }
 
-.section_apple-case_texts p:last-of-type {
+#section_apple-case_font {
     font-size: 2.5vw;
     margin-bottom: 1rem;
-}
-
-.section_apple-case_font {
     align-self: flex-end;
 }
 
@@ -316,6 +313,31 @@ footer a:hover {
 }
 
 @media (max-width: 550px) {
+    .section_01 {
+        height: 100vh;
+    }
+
+    .section_01_container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section_01_texts p {
+        font-size: 6vw;
+    }
+
+    .section_01_video_texts {
+        font-size: 5vw;
+    }
+
+    .section_02_texts p {
+        font-size: 6vw;
+    }
+
     video {
         width: 100%;
         max-width: 300px;
@@ -332,6 +354,30 @@ footer a:hover {
     .section_02_rocket img {
         position: absolute;
         left: -170px;
+    }
+
+    .section_apple-case {
+        height: 100vh;
+    }
+
+    .section_apple__case_container {
+        height: 100%;
+    }
+
+    .section_apple-case_texts {
+        text-align: center;
+    }
+
+    .section_apple-case_texts p {
+        font-size: 6vw;
+    }
+
+    #section_apple-case_font {
+        font-size: 5vw;
+    }
+
+    .section_apple-case_video span {
+        font-size: 3vw;
     }
 
     .section_03 ul {
