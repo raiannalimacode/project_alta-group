@@ -380,6 +380,14 @@ footer a:hover {
         font-size: 3vw;
     }
 
+    .section_03 h3 {
+        font-size: 10vw;
+    }
+
+    .section_04 h3 {
+        font-size: 10vw;
+    }
+
     .section_03 ul {
         width: 100%;
     }
