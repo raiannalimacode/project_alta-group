@@ -321,6 +321,10 @@ footer a:hover {
         max-width: 300px;
     }
 
+    .section_02_texts {
+        margin-top: -10.4375rem;
+    }
+
     .section_02_rocket {
         position: relative;
     }
