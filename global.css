@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Dosis:wght@200;300;400;500;600;700;800&family=Montserrat:wght@200&display=swap');
 
+@font-face {
+    font-family: 'Helvetica Now Display';
+    src: url(./fonts/HelveticaNowDisplay-Bold.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: var(--font-family-01);
+    font-family: var(--font-family-05);
+    /* font-family: var(--font-family-01); */
     list-style: none;
+    line-height: var(line-height-01);
 }
 
 .container {
@@ -19,6 +26,7 @@
     --font-family-02: 'Comfortaa', sans-serif;
     --font-family-03: 'Dosis', sans-serif;
     --font-family-04: 'Montserrat', sans-serif;
+    --font-family-05: 'Helvetica Now Display', sans-serif;
 
     --font-weight-00: 200;
     --font-weight-01: 300;
@@ -29,7 +37,13 @@
     --font-weight-06: 800;
     --font-weight-07: 900;
 
+    --line-height-01: 150%;
+
     --color-white-01: #ffffff;
     --color-black-01: #000000;
     --color-blue-01: #066CF6;
+    --color-blue-02: #344AFF;
+    --color-grey-01: #070707;
+    --color-grey-02: #D0BBF9;
+    --color-purple-01: ##993DFF;
 }

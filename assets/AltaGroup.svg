@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.65 71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#New_Gradient_Swatch_copy_2);
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-4 {
+        fill: #8893b3;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="30.82" y1="27.07" x2="58.13" y2="27.07" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#344aff"/>
+      <stop offset="0" stop-color="#993dff"/>
+      <stop offset="1" stop-color="#33f"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx=".27" dy=".27"/>
+      <feGaussianBlur result="blur" stdDeviation=".9"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="29.91" y1="26.82" x2="2.59" y2="27.41" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx=".27" dy=".27"/>
+      <feGaussianBlur result="blur-2" stdDeviation=".9"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="New_Gradient_Swatch_copy_2" data-name="New Gradient Swatch copy 2" x1="30.77" y1="36.04" x2="30.1" y2="68.42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#993dff"/>
+      <stop offset="1" stop-color="#344aff"/>
+    </linearGradient>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx=".27" dy=".27"/>
+      <feGaussianBlur result="blur-3" stdDeviation=".9"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <g>
+        <path class="cls-4" d="M163.44,19.1h-29.8c-.82,0-1.47.66-1.47,1.47v5.48c0,.81.66,1.47,1.47,1.47h9.76v22.05c0,.81.66,1.47,1.47,1.47h7.33c.82,0,1.47-.66,1.47-1.47v-22.05h9.76c.82,0,1.48-.66,1.48-1.47v-5.48c0-.82-.66-1.47-1.48-1.47Z"/>
+        <path class="cls-4" d="M136.65,42.63h-14.76v-22.05c0-.82-.66-1.47-1.47-1.47h-7.34c-.82,0-1.47.66-1.47,1.47v29c0,.81.66,1.47,1.47,1.47h23.57c.82,0,1.48-.66,1.48-1.47v-5.48c0-.82-.66-1.47-1.48-1.47Z"/>
+        <path class="cls-4" d="M109.68,49.69l-12.12-29.23c-.31-.74-1.22-1.36-2.04-1.36h-8.93c-.81,0-1.73.61-2.04,1.36l-12.12,29.23c-.31.75.1,1.36.91,1.36h7.6c.81,0,1.73-.61,2.04-1.36l8.07-19.49,8.07,19.49c.31.75,1.23,1.36,2.04,1.36h7.6c.81,0,1.22-.61.91-1.36Z"/>
+        <path class="cls-4" d="M196.55,49.69l-12.12-29.23c-.31-.74-1.23-1.36-2.04-1.36h-8.94c-.8,0-1.73.61-2.03,1.36l-12.12,29.23c-.31.75.1,1.36.91,1.36h7.61c.81,0,1.73-.61,2.04-1.36l8.07-19.49,8.07,19.49c.31.75,1.22,1.36,2.03,1.36h7.61c.81,0,1.22-.61.91-1.36Z"/>
+      </g>
+      <g>
+        <path class="cls-4" d="M122.61,65.67c-.64.23-1.9.61-3.39.61-1.67,0-3.04-.43-4.12-1.46-.95-.92-1.54-2.39-1.54-4.11.02-3.29,2.27-5.69,5.97-5.69,1.28,0,2.27.28,2.75.51l-.34,1.16c-.59-.26-1.33-.47-2.44-.47-2.68,0-4.43,1.67-4.43,4.43s1.69,4.45,4.25,4.45c.93,0,1.57-.13,1.9-.29v-3.29h-2.24v-1.14h3.63v5.3Z"/>
+        <path class="cls-4" d="M124.74,60.71c0-.93-.02-1.73-.07-2.47h1.26l.05,1.55h.07c.36-1.06,1.23-1.73,2.19-1.73.16,0,.28.02.41.05v1.36c-.15-.03-.3-.05-.49-.05-1.01,0-1.73.77-1.93,1.85-.03.2-.07.43-.07.67v4.22h-1.42v-5.45Z"/>
+        <path class="cls-4" d="M137.1,62.13c0,2.93-2.03,4.2-3.94,4.2-2.14,0-3.8-1.57-3.8-4.07,0-2.65,1.73-4.2,3.93-4.2s3.81,1.65,3.81,4.07ZM130.81,62.22c0,1.73,1,3.04,2.41,3.04s2.4-1.29,2.4-3.08c0-1.34-.67-3.04-2.37-3.04s-2.44,1.57-2.44,3.08Z"/>
+        <path class="cls-4" d="M145.54,64c0,.82.02,1.54.07,2.16h-1.28l-.08-1.29h-.03c-.38.64-1.21,1.47-2.62,1.47-1.24,0-2.73-.69-2.73-3.47v-4.63h1.44v4.38c0,1.5.46,2.52,1.77,2.52.97,0,1.64-.67,1.9-1.31.08-.21.13-.47.13-.74v-4.86h1.44v5.76Z"/>
+        <path class="cls-4" d="M147.93,60.82c0-1.01-.03-1.83-.07-2.58h1.29l.07,1.36h.03c.59-.97,1.52-1.54,2.81-1.54,1.91,0,3.35,1.62,3.35,4.02,0,2.85-1.73,4.25-3.6,4.25-1.05,0-1.96-.46-2.44-1.24h-.03v4.3h-1.42v-8.57ZM149.36,62.94c0,.21.03.41.07.59.26,1,1.13,1.69,2.16,1.69,1.52,0,2.4-1.24,2.4-3.06,0-1.59-.83-2.94-2.36-2.94-.98,0-1.9.7-2.18,1.78-.05.18-.1.39-.1.59v1.36Z"/>
+      </g>
+      <g>
+        <polygon class="cls-3" points="30.82 3.4 58.13 19.31 58.13 50.75 30.82 3.4"/>
+        <polygon class="cls-1" points="30.22 3.43 2.88 19.3 2.89 50.79 30.22 3.43"/>
+        <polygon class="cls-2" points="3.14 51 30.47 35.18 57.78 51 30.47 66.76 3.14 51"/>
+      </g>
+    </g>
+  </g>
+</svg>
