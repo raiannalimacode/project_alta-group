@@ -138,6 +138,8 @@ video {
 .section_03 ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 0.5rem;
     width: 100%;
     overflow: hidden;
