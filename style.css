@@ -136,26 +136,26 @@ video {
 }
 
 .section_03 ul {
-    width: 80%;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-}
-
-.section_03 li {
-    position: relative;
-}
-
-.section_03 ul li:first-of-type {
-    flex-grow: 10;
     width: 100%;
-    height: 394px;
+    overflow: hidden;
 }
+
+/* .section_03 ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 .section_03_image {
-    width: 100%;
-    height: 100%;
+    height: 394px;
     overflow: hidden;
+}
+
+.section_03_image:not(.section_03_first-image) {
+    width: 662px;
 }
 
 .section_03_image:hover img {
@@ -163,25 +163,12 @@ video {
 }
 
 .section_03 li img {
-    width: 100%;
-    height: 394px;
     transition: 0.5s ease-in-out;
 }
 
-.section_03 li span {
-    position: absolute;
-    bottom: 45px;
-    left: 45px;
-    font-family: var(--font-family-02);
-    font-size: 1.9rem;
-    font-weight: var(--font-weight-05);
-    color: var(--color-white-01);
-}
-
-.section_03 li:not(:first-of-type) {
-    width: 49.6%;
-    height: 17rem;
-    max-height: 17.3125rem;
+.section_03_flex-image {
+    display: flex;
+    gap: 0.5rem;
 }
 
 .section_04 {
@@ -384,47 +371,50 @@ footer a:hover {
         font-size: 10vw;
     }
 
-    .section_04 h3 {
-        font-size: 10vw;
+    .section_03_flex-image {
+        flex-direction: column;
     }
 
-    .section_03 ul {
+    .section_03_image {
         width: 100%;
-    }
-
-    .section_04 ul {
-        width: 100%;
+        height: 100%;
+        overflow: hidden;
     }
 
     .section_03 li {
-        height: auto;
-    }
-
-    .section_04 li {
         height: auto !important;
-    }
-
-    .section_03 li:not(:first-of-type) {
-        height: auto;
     }
 
     .section_03 li img {
         height: 250px;
+        width: 100%;
     }
 
-    .section_04 li img {
-        height: 250px;
+    .section_03_other-image img {
+        object-fit: contain;
     }
 
     .section_03 ul li:first-of-type {
         height: auto;
     }
 
-    .section_04 ul li:first-of-type {
-        height: auto;
+    .section_04 h3 {
+        font-size: 10vw;
     }
 
-    .section_03_image {
+    .section_04 ul {
+        width: 100%;
+    }
+
+    .section_04 li {
+        height: auto !important;
+    }
+
+    .section_04 li img {
+        height: 250px;
+    }
+
+    .section_04 ul li:first-of-type {
         height: auto;
     }
 }
