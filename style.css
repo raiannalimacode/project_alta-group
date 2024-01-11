@@ -314,11 +314,11 @@ footer a:hover {
     }
 
     .section_01_texts p {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     .section_01_video_texts {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     .section_02_texts p {
@@ -385,13 +385,21 @@ footer a:hover {
         height: auto !important;
     }
 
-    .section_03 li img {
+    .section_03_other-image img {
+        padding: 5px;
+        object-fit: contain;
         height: 250px;
         width: 100%;
     }
 
-    .section_03_other-image img {
-        object-fit: contain;
+    .section_03_first-image {
+        height: 250px;
+    }
+
+    .section_03_first-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .section_03 ul li:first-of-type {
