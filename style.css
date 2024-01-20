@@ -121,7 +121,6 @@ video {
 .section_03 {
     height: 100%;
     background-color: var(--color-white-01);
-    padding-bottom: 5rem;
 }
 
 .section_03_container {
@@ -133,7 +132,7 @@ video {
 .section_03 h3 {
     font-size: 3vw;
     color: var(--color-grey-01);
-    margin: 7rem 0 5rem;
+    margin: 4rem;
     border-bottom: 4px solid #993DFF;
 }
 
@@ -180,7 +179,6 @@ video {
 .section_04 {
     height: 100%;
     background-color: var(--color-white-01);
-    padding-bottom: 5rem;
 }
 
 .section_04_container {
@@ -192,7 +190,7 @@ video {
 .section_04 h3 {
     font-size: 3vw;
     color: var(--color-grey-01);
-    margin: 7rem 0 5rem;
+    margin: 4rem;
     border-bottom: 4px solid #993DFF;
 }
 
@@ -478,7 +476,7 @@ footer a:hover {
 
     .section_03 h3 {
         font-size: 10vw;
-        margin: 2rem;
+        margin: 3rem;
     }
 
     .section_03_flex-image {
@@ -520,7 +518,7 @@ footer a:hover {
 
     .section_04 h3 {
         font-size: 10vw;
-        margin: 2rem;
+        margin: 3rem;
     }
 
     .section_04_flex-image {
