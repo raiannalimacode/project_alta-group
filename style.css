@@ -182,6 +182,8 @@ video {
 .section_04 {
     height: 100%;
     background-color: var(--color-white-01);
+    border-bottom: 2px solid var(--color-white-01);
+    padding-bottom: 4rem;
 }
 
 .section_04_container {
@@ -244,6 +246,7 @@ video {
     width: 100%;
     height: 100%;
     background-color: var(--color-grey-01);
+    border-bottom: 2px solid var(--color-white-01);
     /* background: url(./assets/NATURE-NEON-03.jpg); */
     display: flex;
     flex-direction: column;
@@ -556,7 +559,7 @@ footer a:hover {
 
     .section_05_container {
         width: 24.5rem;
-        margin: 30px;
+        margin: 4rem 0px;
     }
 
     .section_05_title h3 {
