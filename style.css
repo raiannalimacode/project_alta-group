@@ -81,7 +81,7 @@ video {
     width: 100%;
     height: 100%;
     border: 2px solid transparent;
-    background-color: var(--color-blue-02);
+    background-color: var(--color-grey-01);
 }
 
 .section_apple__case_container {
@@ -268,10 +268,11 @@ video {
     height: auto;
     border: 1px solid var(--color-blue-02);
     border-radius: 30px;
-    box-shadow: 0 0 15px var(--color-blue-02), inset 0 0 15px var(--color-blue-02);
+    /* box-shadow: 0 0 15px var(--color-blue-02), inset 0 0 15px var(--color-blue-02); */
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     margin: 100px;
+    transition: all 2s linear;
 }
 
 .section_05_title h3 {
@@ -296,6 +297,7 @@ video {
     font-size: 1.5vw;
     color: var(--color-white-01);
     margin-bottom: 20px;
+    /* transition: all 2s linear; */
 }
 
 .section_05 form label {
@@ -308,15 +310,17 @@ video {
     color: var(--color-grey-02);
     border: 1px solid var(--color-blue-02);
     border-radius: 15px;
-    box-shadow: 0 0 8px var(--color-blue-02), inset 0 0 8px var(--color-blue-02);
+    /* box-shadow: 0 0 8px var(--color-blue-02), inset 0 0 8px var(--color-blue-02); */
     background: transparent;
     margin-bottom: 15px;
     padding: 0px 10px;
     display: flex;
+    transition: all 10s linear;
 }
 
 .section_05 form input:focus {
-    box-shadow: 0 0 8px var(--color-white-01), inset 0 0 8px var(--color-white-01);
+    border: 1px solid var(--color-white-01);
+    /* box-shadow: 0 0 8px var(--color-white-01), inset 0 0 8px var(--color-white-01); */
 }
 
 .section_05 form textarea {
@@ -324,14 +328,16 @@ video {
     color: var(--color-grey-02);
     border: 1px solid var(--color-blue-02);
     border-radius: 15px;
-    box-shadow: 0 0 8px var(--color-blue-02), inset 0 0 8px var(--color-blue-02);
+    /* box-shadow: 0 0 8px var(--color-blue-02), inset 0 0 8px var(--color-blue-02); */
     background: transparent;
     margin-bottom: 15px;
     padding: 10px;
+    transition: all 10s linear;
 }
 
 .section_05 form textarea:focus {
-    box-shadow: 0 0 8px var(--color-white-01), inset 0 0 8px var(--color-white-01);
+    border: 1px solid var(--color-white-01);
+    /* box-shadow: 0 0 8px var(--color-white-01), inset 0 0 8px var(--color-white-01); */
 }
 
 .section_05_btn-send-email {
@@ -343,7 +349,7 @@ video {
     border: 2px solid var(--color-white-01);
     border-radius: 15px;
     margin-top: 10px;
-    transition: all 0.5s linear;
+    transition: all 2s linear;
     cursor: pointer;
     align-self: center;
 }
@@ -393,7 +399,7 @@ footer a {
 }
 
 footer a:not(:last-of-type) {
-    margin-right: 4vw;
+    margin-right: 2vw;
 }
 
 footer a:hover {
@@ -573,6 +579,10 @@ footer a:hover {
     .section_05 form p {
         font-size: 4vw;
     }
+
+    .section_05_btn-send-email {
+        font-size: 5vw;
+    }
 }
 
 @media (max-width: 783px) {
@@ -580,8 +590,18 @@ footer a:hover {
         flex-direction: column;
     }
 
+    .section_05 form p {
+        font-size: 4vw;
+    }
+
     .footer_logo {
         display: none;
+    }
+}
+
+@media (min-width: 560px) {
+    .section_05_container {
+        width: auto;
     }
 }
 
@@ -602,5 +622,11 @@ footer a:hover {
 
     .section_04 ul li {
         flex-grow: 2;
+    }
+}
+
+@media (min-width: 750px) {
+    .section_05 form p {
+        font-size: 2.5vw;
     }
 }
